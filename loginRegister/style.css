@@ -247,9 +247,6 @@ form.sign-in-form {
   font-weight: 600;
   font-size: 0.8rem;
 }
-.btn.transparent:hover{
-  background-color: #4d84e2;
-}
 .right-panel .image,
 .right-panel .content {
   transform: translateX(800px);
@@ -300,7 +297,11 @@ form.sign-in-form {
 .container.sign-up-mode .right-panel .content {
   transform: translateX(0%);
 }
+.btn.transparent:hover{
+  background-color: #fbfcfd;
+  border:none;
 
+}
 .container.sign-up-mode .left-panel {
   pointer-events: none;
 }
@@ -372,6 +373,7 @@ form.sign-in-form {
     width: 110px;
     height: 35px;
     font-size: 0.7rem;
+  
   }
 
   .container:before {
