@@ -439,3 +439,26 @@ form.sign-in-form {
     left: 50%;
   }
 }
+nav{
+  padding: 20px;
+  background-color: white;
+  z-index: 9;
+  box-shadow: 0px 3px 65px 0px rgba(0,0, 0, .15);
+  display: flex;
+}
+
+nav h2{
+  float: left;
+  width: 60%;
+  color: hotpink;
+  font-family: cursive;
+  margin-left: 5%;
+  font-size: 40px;
+  padding: 5px;
+  
+}
+nav .noti{
+  float: right;
+width: 40%;
+
+}
