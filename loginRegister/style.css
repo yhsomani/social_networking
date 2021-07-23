@@ -236,21 +236,7 @@ form.sign-in-form {
 .right-panel .content {
   transform: translateX(800px);
 }
-.content h3:hover{
-  color: purple;
-  font-size: 30px;
-  font-weight: bold;
-  transition: 2s;
 
-}
-.content p:hover{
-  color: purple;
-  font-size: 30px;
-  font-weight: bold;
-  font-family: cosmic sans-serif;
-  transition: 2s;
-
-}
 
 /* ANIMATION */
 
@@ -358,7 +344,6 @@ form.sign-in-form {
     width: 110px;
     height: 35px;
     font-size: 0.7rem;
-  
   }
 
   .container:before {
@@ -376,6 +361,21 @@ form.sign-in-form {
     transform: translate(-50%, 100%);
     bottom: 32%;
     right: initial;
+  }
+  .content h3:hover{
+    color: rgb(46, 75, 139);
+    font-size: 30px;
+    font-weight: bold;
+    transition: 2s;
+  
+  }
+  .content p:hover{
+    color: rgb(46, 75, 139);
+    font-size: 30px;
+    font-weight: bold;
+    font-family: cosmic sans-serif;
+    transition: 2s;
+  
   }
 
   .container.sign-up-mode .left-panel .image,
