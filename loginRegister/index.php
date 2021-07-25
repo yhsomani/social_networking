@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <?php
+    ?>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width-device-width, initial-scale=1.0" />
     <script
@@ -32,21 +34,26 @@
               </a>
             </div>
           </form>
-          <form action="#" class="sign-up-form">
+          <form action="userregister.php" method="POST" class="sign-up-form">
             <h2 class="title">Sign up</h2>
             <div class="input-field">
               <i class="fas fa-user"></i>
-              <input type="text" placeholder="Username" />
+              <input type="text" placeholder="Username" name="username" />
             </div>
             <div class="input-field">
               <i class="fas fa-envelope"></i>
-              <input type="email" placeholder="Email" />
+              <input type="email" placeholder="Email" name="email" />
             </div>
             <div class="input-field">
               <i class="fas fa-lock" ></i>
-              <input type="password" placeholder="Password" />
+              <input type="password" placeholder="Password" name="password"  />
             </div>
-            <input type="submit" class="btn" value="Sign up" />
+            <div class="input-field">
+              <i class="fas fa-lock" ></i>
+              <input type="number" placeholder="phone no" name="phone_no"  />
+            </div>
+
+            <input type="submit" class="btn" value="Sign up" name="sign_up" />
             <p class="social-text">Or Sign up with social platforms</p>
             <div class="social-media">
                 <a href="#" class="social-icon">
