@@ -11,6 +11,4 @@ function setup_client_create()
     $db = new FirestoreClient();
     printf('Created Cloud Firestore client with default project ID.' . PHP_EOL);
 }
-
-
 ?>
