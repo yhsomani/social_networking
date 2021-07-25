@@ -1,7 +1,6 @@
 <?php
 
 use Google\Cloud\Firestore\FirestoreClient;
-
 /**
  * Initialize Cloud Firestore with default project ID.
  */
