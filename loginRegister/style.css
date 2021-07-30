@@ -447,7 +447,7 @@ nav .noti{
 width: 40%;
 }
 body{
-  background-color: 	#ffe6e6;
+  background-color: linear-gradient
 }
 body .copy{
   margin-top: 43%;
@@ -484,7 +484,7 @@ body .copy:hover{
   width: 4.5%;
   height: auto;
   border: 3px dashed gray;
-  margin-left: 10%;
+  margin-left: 30%;
   border-radius: 200%;
  
 }
@@ -492,7 +492,6 @@ body .copy:hover{
   border: none;
 }
 .area .peoples .profile img{
- 
   width: 100%;
   height: 100%;
   background-size: cover;
@@ -503,16 +502,12 @@ body .copy:hover{
 }
 .area .peoples .picture{
   text-decoration: none;
-  margin-left: 3%;
+  margin-left:2%;
   font-family: cursive;
 }
 .area .peoples .picture span{
   color: palevioletred;
   margin-left: 40%; 
-}
-.area .peoples .picture span:hover{
-  color: #4481eb;
-  font-size: 20px;
 }
 .area .peoples .picture .pic_count{
   margin-left: 45%;
@@ -546,9 +541,10 @@ body .copy:hover{
 }
 
 .line .edit{
-  width: 43%;
-  margin-left: 10px;  
+  width: 10%;
+  margin-left: 18%;  
   margin-top: 1.5%;
+  border: none;
 }
 .line .edit button{
   width: 100%;
